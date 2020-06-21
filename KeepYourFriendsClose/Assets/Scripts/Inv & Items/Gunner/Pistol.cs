@@ -11,6 +11,18 @@ public class Pistol : Item
         base.SetReloadability(true);
     }
 
+    public override void EquipItem()
+    {
+        base.EquipItem();
+        PR.SetSprites(PR.GetCurrentCharacterSprites().frontOneArm1, PR.GetCurrentCharacterSprites().backOneArm1);
+    }
+
+    public override void UnequipItem()
+    {
+        base.UnequipItem();
+        PR.SetSprites(PR.GetCurrentCharacterSprites().frontIdle, PR.GetCurrentCharacterSprites().backIdle);
+    }
+
     public override void ItemLeftClick()
     {
         //Shoot logic

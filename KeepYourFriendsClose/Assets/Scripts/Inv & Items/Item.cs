@@ -4,14 +4,15 @@ using UnityEngine;
 
 public abstract class Item : MonoBehaviour
 {
-    //public SpriteRenderer charSR;
-    private SpriteRenderer itemSR;
+    protected PlayerRender PR;
+    protected SpriteRenderer itemSR;
     private string itemName;
     private bool canBeReloaded;
 
     protected virtual void Awake()
     {
         itemSR = gameObject.GetComponent<SpriteRenderer>();
+        PR = gameObject.GetComponentInParent<PlayerRender>();
     }
 
     protected virtual void SetItemName(string name)

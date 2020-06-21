@@ -19,6 +19,9 @@ public class PlayerRender : MonoBehaviour
     public bool getFacingRight() { return facingRight; }
     public bool getFacingDown() { return facingDown; }
 
+    private Sprite currentFront;
+    private Sprite currentBack;
+
     void OnEnable()
     {
         PlayerListener._playerFlippedHoriz += FlipHoriz;
@@ -39,15 +42,16 @@ public class PlayerRender : MonoBehaviour
     private void Start()
     {
         currentCharacter = characters.playerCharacters[chosenChar];
+        SetSprites(currentCharacter.frontIdle, currentCharacter.backIdle);
     }
 
     void Update()
     {
         //SPRITE CHANGES
         if (facingDown)
-            sr.sprite = currentCharacter.frontIdle;
+            sr.sprite = GetFrontSprite();
         else
-            sr.sprite = currentCharacter.backIdle;
+            sr.sprite = GetBackSprite();
     }
 
     void FlipHoriz()
@@ -63,5 +67,24 @@ public class PlayerRender : MonoBehaviour
     {
         //Flip function used if the player looks the other direction (vertically).
         facingDown = !facingDown;
+    }
+
+    public void SetSprites(Sprite newFront, Sprite newBack)
+    {
+        currentFront = newFront;
+        currentBack = newBack;
+    }
+
+    public Sprite GetFrontSprite()
+    {
+        return currentFront;
+    }
+    public Sprite GetBackSprite()
+    {
+        return currentBack;
+    }
+    public Characters.SpriteList GetCurrentCharacterSprites()
+    {
+        return currentCharacter;
     }
 }
