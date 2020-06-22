@@ -5,7 +5,8 @@ using UnityEngine;
 public class PlayerListener : MonoBehaviour
 {
     private PlayerMovement PM;
-    public PlayerRender PR;
+    private PlayerRender PR;
+    private PlayerAim PA;
 
     public delegate void PlayerWalking();
     public static event PlayerWalking _playerWalking;
@@ -20,6 +21,8 @@ public class PlayerListener : MonoBehaviour
     private void Awake()
     {
         PM = GetComponent<PlayerMovement>();
+        PA = GetComponentInChildren<PlayerAim>();
+        PR = GetComponentInChildren<PlayerRender>();
     }
 
     private void Update()
@@ -37,12 +40,14 @@ public class PlayerListener : MonoBehaviour
         }
 
         //LISTEN FOR SPRITE FLIP
-        if (!PR.getFacingRight() && PM.getHorizontalInput() > 0 || PR.getFacingRight() && PM.getHorizontalInput() < 0)      //HORIZONTALLY
+        if (!PR.getFacingRight() && (PA.GetQuadrant() == PlayerAim.AimQuadrant.TopRight || PA.GetQuadrant() == PlayerAim.AimQuadrant.BottomRight)  //HORIZONTALLY
+            || PR.getFacingRight() && (PA.GetQuadrant() == PlayerAim.AimQuadrant.TopLeft || PA.GetQuadrant() == PlayerAim.AimQuadrant.BottomLeft))     
         {
             if (_playerFlippedHoriz != null)
                 _playerFlippedHoriz();
         }
-        if (!PR.getFacingDown() && PM.getVerticalInput() < 0 || PR.getFacingDown() && PM.getVerticalInput() > 0)         //VERTICALLY
+        if (!PR.getFacingDown() && (PA.GetQuadrant() == PlayerAim.AimQuadrant.BottomRight || PA.GetQuadrant() == PlayerAim.AimQuadrant.BottomLeft)  //VERTICALLY
+            || PR.getFacingDown() && (PA.GetQuadrant() == PlayerAim.AimQuadrant.TopRight || PA.GetQuadrant() == PlayerAim.AimQuadrant.TopLeft))        
         {
             if (_playerFlippedVert != null)
                 _playerFlippedVert();
