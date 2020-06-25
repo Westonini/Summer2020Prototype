@@ -4,15 +4,43 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public int damage;
+
+    [Range(1, 10)]
+    public int maxPenetrateCount = 1;
+    private int currentPenetrateCount = 0;
+
+    private Camera mainCam;
+    Vector2 mouseScreenPosition;
+    Vector2 direction;
+
+    void Awake()
     {
-        
+        mainCam = Camera.main;
     }
 
-    // Update is called once per frame
-    void Update()
+    void Start()
     {
-        
+        mouseScreenPosition = mainCam.ScreenToWorldPoint(Input.mousePosition);
+        direction = (mouseScreenPosition - (Vector2)transform.position).normalized;
+        transform.up = direction;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Enemy"))
+        {
+            //Get Enemy Script
+            //Call Damage function and pass in damage variable. 
+
+            currentPenetrateCount++;
+
+            if (currentPenetrateCount >= maxPenetrateCount)
+                Destroy(gameObject);
+        }
+        if (collision.gameObject.layer == LayerMask.NameToLayer("NonDestructable"))
+        {
+            Destroy(gameObject);
+        }
     }
 }
