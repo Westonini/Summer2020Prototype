@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Rifle : Item
+public class Rifle : GunItem
 {
     public Sprite rifleFront;
     public Sprite rifleBack;
@@ -34,23 +34,6 @@ public class Rifle : Item
     {
         base.UnequipItem();
         PR.SetSprites(PR.GetCurrentCharacterSprites().frontIdle, PR.GetCurrentCharacterSprites().backIdle);
-    }
-
-    public override void ItemLeftClick()
-    {
-        //Shoot logic
-        Debug.Log("Shoot");
-    }
-
-    public override bool IsItemReloadable()
-    {
-        return true;
-    }
-
-    public override void Reload()
-    {
-        //Reload logic
-        Debug.Log("Reload");
     }
 
     private void ChangeRifleSprite()

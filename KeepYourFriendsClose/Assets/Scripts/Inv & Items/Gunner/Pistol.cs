@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pistol : Item
+public class Pistol : GunItem
 {
     protected override void Awake()
     {
@@ -21,22 +21,5 @@ public class Pistol : Item
     {
         base.UnequipItem();
         PR.SetSprites(PR.GetCurrentCharacterSprites().frontIdle, PR.GetCurrentCharacterSprites().backIdle);
-    }
-
-    public override void ItemLeftClick()
-    {
-        //Shoot logic
-        Debug.Log("Shoot");
-    }
-
-    public override bool IsItemReloadable()
-    {
-        return true;
-    }
-
-    public override void Reload()
-    {
-        //Reload logic
-        Debug.Log("Reload");
     }
 }

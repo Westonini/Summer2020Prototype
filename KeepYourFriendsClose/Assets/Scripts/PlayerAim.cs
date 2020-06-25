@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerAim : MonoBehaviour
 {
-    private Camera mainCam;
     private AimQuadrant currentQuadrant;
 
     public enum AimQuadrant
@@ -15,11 +14,6 @@ public class PlayerAim : MonoBehaviour
         TopRight
     }
 
-    void Awake()
-    {
-        mainCam = Camera.main;    
-    }
-
     public AimQuadrant GetQuadrant()
     {
         return currentQuadrant;
@@ -27,10 +21,6 @@ public class PlayerAim : MonoBehaviour
 
     void Update()
     {
-        Vector2 mouseScreenPosition = mainCam.ScreenToWorldPoint(Input.mousePosition);
-        Vector2 direction = (mouseScreenPosition - (Vector2)transform.position).normalized;
-        transform.up = direction;
-
         if (transform.rotation.eulerAngles.z > 0 && transform.rotation.eulerAngles.z <= 89.5f)
             currentQuadrant = AimQuadrant.TopLeft;
         if (transform.rotation.eulerAngles.z > 90 && transform.rotation.eulerAngles.z <= 179.5f)
