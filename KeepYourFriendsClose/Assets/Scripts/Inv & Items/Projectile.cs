@@ -30,8 +30,8 @@ public class Projectile : MonoBehaviour
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Enemy"))
         {
-            //Get Enemy Script
-            //Call Damage function and pass in damage variable. 
+            EnemyHealth EH = collision.gameObject.GetComponent<EnemyHealth>();
+            EH.TakeDamage(damage);
 
             currentPenetrateCount++;
 
