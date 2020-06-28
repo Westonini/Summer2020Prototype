@@ -8,10 +8,18 @@ public class GunItem : Item
     public float shootCooldown;
     public int clipSize;
     public float reloadTime;
+    private GunItemUI GIU;
+
+    protected override void Awake()
+    {
+        base.Awake();
+        GIU = gameObject.GetComponent<GunItemUI>();
+    }
 
     protected virtual void Start()
     {
         bulletCount = clipSize;
+        GIU.SetClipSize(clipSize);
     }
 
     [Space]
@@ -27,6 +35,13 @@ public class GunItem : Item
     private bool currentlyReloading;
     private Coroutine reloadCoroutine = null;
 
+    public override void EquipItem()
+    {
+        base.EquipItem();
+
+        GIU.EnableAmmoSprites();
+    }
+
     public override void UnequipItem()
     {
         base.UnequipItem();
@@ -37,6 +52,8 @@ public class GunItem : Item
             StopCoroutine(reloadCoroutine);
             currentlyReloading = false;
         }
+
+        GIU.DisableAmmoSprites();
     }
 
     public override void ItemLeftClick()
@@ -66,6 +83,9 @@ public class GunItem : Item
 
                 //Gun Shoot Sound
 
+                //Darken one bullet on the visual ammo sprites for the player
+                GIU.DarkenOneBullet();
+
             }
             else
             {
@@ -92,6 +112,7 @@ public class GunItem : Item
         currentlyReloading = true;
         yield return new WaitForSeconds(timer);
         bulletCount = clipSize;
+        GIU.ResetAllBullets();
         clipEmpty = false;
         currentlyReloading = false;
     }
