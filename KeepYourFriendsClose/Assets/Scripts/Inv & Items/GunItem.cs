@@ -8,12 +8,16 @@ public class GunItem : Item
     public float shootCooldown;
     public int clipSize;
     public float reloadTime;
+    private Animator anim;
     private GunItemUI GIU;
+    private ScreenShake SS;
 
     protected override void Awake()
     {
         base.Awake();
+        anim = GetComponent<Animator>();
         GIU = gameObject.GetComponent<GunItemUI>();
+        SS = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<ScreenShake>();
     }
 
     protected virtual void Start()
@@ -87,6 +91,11 @@ public class GunItem : Item
                 //Darken one bullet on the visual ammo sprites for the player
                 GIU.DarkenOneBullet();
 
+                //Light Screen Shake
+                SS.DoScreenShake(1);
+
+                //Gun Shoot Animation
+                anim.SetTrigger("Shoot");
             }
             else
             {
