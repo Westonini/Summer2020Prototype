@@ -51,6 +51,7 @@ public class GunItem : Item
         {
             StopCoroutine(reloadCoroutine);
             currentlyReloading = false;
+            GIU.reloadUI.HideReloadBar();
         }
 
         GIU.DisableAmmoSprites();
@@ -89,7 +90,8 @@ public class GunItem : Item
             }
             else
             {
-                //Clip Empty Sound
+                //Automatically start Reload
+                Reload();
 
             }
         }
@@ -109,10 +111,12 @@ public class GunItem : Item
 
     IEnumerator ReloadTimer(float timer)
     {
+        GIU.reloadUI.ShowReloadBar(timer);
         currentlyReloading = true;
         yield return new WaitForSeconds(timer);
         bulletCount = clipSize;
         GIU.ResetAllBullets();
+        GIU.reloadUI.HideReloadBar();
         clipEmpty = false;
         currentlyReloading = false;
     }

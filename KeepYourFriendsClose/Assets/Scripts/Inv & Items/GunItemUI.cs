@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class GunItemUI : MonoBehaviour
 {
     public GameObject ammoSprite;
+    public ReloadUI reloadUI;
     private int clipSize;
     private int currentClipSize;
 
