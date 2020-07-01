@@ -8,6 +8,7 @@ public class GunItem : Item
     public float shootCooldown;
     public int clipSize;
     public float reloadTime;
+    public string[] shootSounds;
     private Animator anim;
     private GunItemUI GIU;
     private ScreenShake SS;
@@ -86,7 +87,8 @@ public class GunItem : Item
                 if (bulletCount <= 0)
                     clipEmpty = true;
 
-                //Gun Shoot Sound
+                //Play shoot sound
+                AudioManager.instance.PlayOneShot(shootSounds);
 
                 //Darken one bullet on the visual ammo sprites for the player
                 GIU.DarkenOneBullet();

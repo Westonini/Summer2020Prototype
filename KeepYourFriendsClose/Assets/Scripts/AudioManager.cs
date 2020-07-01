@@ -73,8 +73,45 @@ public class AudioManager : MonoBehaviour
             s.source.Play();
     }
 
+    public void Play(string[] _sounds)
+    {
+        int random = UnityEngine.Random.Range(0, _sounds.Length);
+        string sound = _sounds[random];
+
+        Sound s = Array.Find(sounds, item => item.name == sound);
+        if (s == null)
+        {
+            Debug.LogWarning("Sound: " + name + " not found!");
+            return;
+        }
+
+        s.source.volume = s.volume * (1f + UnityEngine.Random.Range(-s.volumeVariance / 2f, s.volumeVariance / 2f));
+        s.source.pitch = s.pitch * (1f + UnityEngine.Random.Range(-s.pitchVariance / 2f, s.pitchVariance / 2f));
+
+        if (!s.source.isPlaying)
+            s.source.Play();
+    }
+
     public void PlayOneShot(string sound)
     {
+        Sound s = Array.Find(sounds, item => item.name == sound);
+        if (s == null)
+        {
+            Debug.LogWarning("Sound: " + name + " not found!");
+            return;
+        }
+
+        s.source.volume = s.volume * (1f + UnityEngine.Random.Range(-s.volumeVariance / 2f, s.volumeVariance / 2f));
+        s.source.pitch = s.pitch * (1f + UnityEngine.Random.Range(-s.pitchVariance / 2f, s.pitchVariance / 2f));
+
+        s.source.PlayOneShot(s.source.clip);
+    }
+
+    public void PlayOneShot(string[] _sounds)
+    {
+        int random = UnityEngine.Random.Range(0, _sounds.Length);
+        string sound = _sounds[random];
+
         Sound s = Array.Find(sounds, item => item.name == sound);
         if (s == null)
         {

@@ -33,5 +33,10 @@ public abstract class CharacterHealth : MonoBehaviour
             CharacterDeath();
     }
 
+    public virtual void HealHealth(int amount)
+    {
+        SetHealth(currentHealth + amount);
+    }
+
     protected virtual void CharacterDeath() { /*To be done in inherited classes*/ }
 }
