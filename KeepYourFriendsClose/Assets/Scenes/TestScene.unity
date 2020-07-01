@@ -1709,7 +1709,8 @@ MonoBehaviour:
   shootCooldown: 0.35
   clipSize: 6
   reloadTime: 3.25
-  shootSounds: []
+  shootSounds:
+  - RifleShoot1
   projectilePrefab: {fileID: -8466894467313760542, guid: dcc743cf4e7f5b44ab1525a5b8dc1466,
     type: 3}
   shootPoint: {fileID: 190654753}
@@ -21905,10 +21906,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5470725287228029622, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
     - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
         type: 3}
       propertyPath: sounds.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
         type: 3}
@@ -21960,10 +21966,55 @@ PrefabInstance:
       propertyPath: sounds.Array.data[1].pitchVariance
       value: 0.15
       objectReference: {fileID: 0}
-    - target: {fileID: 5470725287228029622, guid: f0f45da14e15f0344aad5bf07a12f197,
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
         type: 3}
-      propertyPath: m_Name
-      value: AudioManager
+      propertyPath: sounds.Array.data[2].name
+      value: RifleShoot1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[2].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 07e04e2e764b4284788b1117cd4eee6e, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[2].volume
+      value: 0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[2].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[2].pitchVariance
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[3].name
+      value: RifleShoot2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[3].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 595fb6a18b5893549baeacd395c7f4cf, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[3].volume
+      value: 0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[3].pitch
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[3].pitchVariance
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1970230556598319244, guid: f0f45da14e15f0344aad5bf07a12f197,
         type: 3}
