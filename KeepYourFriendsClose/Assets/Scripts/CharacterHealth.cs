@@ -11,8 +11,8 @@ public abstract class CharacterHealth : MonoBehaviour
 
     private Rigidbody2D rb;
 
-    protected void Awake() { rb = GetComponentInParent<Rigidbody2D>(); }
-    protected void Start() { currentHealth = maxHealth; }
+    protected virtual void Awake() { rb = GetComponentInParent<Rigidbody2D>(); }
+    protected virtual void Start() { currentHealth = maxHealth; }
   
     public int GetHealth() { return currentHealth; }
     public void SetHealth(int amount)

@@ -17,8 +17,8 @@ TagManager:
   - 
   - NonDestructable
   - Enemy
-  - 
-  - 
+  - AggroRange
+  - Human
   - 
   - 
   - 
