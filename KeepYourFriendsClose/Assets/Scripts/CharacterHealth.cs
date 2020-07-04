@@ -5,6 +5,7 @@ using UnityEngine;
 public abstract class CharacterHealth : MonoBehaviour
 {
     public int maxHealth;
+    public Animator anim;
     private int currentHealth;
 
     public int knockbackResist;
@@ -31,6 +32,9 @@ public abstract class CharacterHealth : MonoBehaviour
 
         if (currentHealth == 0)
             CharacterDeath();
+
+        anim.ResetTrigger("Hurt");
+        anim.SetTrigger("Hurt");
     }
 
     public virtual void HealHealth(int amount)
