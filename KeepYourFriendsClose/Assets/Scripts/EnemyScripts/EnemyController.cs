@@ -5,8 +5,11 @@ using Pathfinding;
 
 public class EnemyController : MonoBehaviour
 {
+    public int damage;
+
     private EnemyStateManager ESM;
     private EnemyAggro EA;
+    private EnemyMeleeAttack EMA;
 
     private AIPath aiPath;
     private AIDestinationSetter aiDestSetter;
@@ -18,6 +21,7 @@ public class EnemyController : MonoBehaviour
         aiDestSetter = GetComponent<AIDestinationSetter>();
 
         EA = GetComponentInChildren<EnemyAggro>();
+        EMA = GetComponentInChildren<EnemyMeleeAttack>();
     }
 
     private void Start()
@@ -40,7 +44,7 @@ public class EnemyController : MonoBehaviour
 
     public void Attack()
     {
-
+        EMA.GetCharHealth().TakeDamage(damage);
     }
 
     public void Dead()

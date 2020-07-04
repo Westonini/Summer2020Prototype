@@ -2,19 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyAggro : MonoBehaviour
+public class EnemyMeleeAttack : MonoBehaviour
 {
-    public EnemyStateManager ESM;
+    private EnemyStateManager ESM;
     private Transform target;
-    private bool targetFound = false;
+    private bool targetInRange;
+
+    private void Awake()
+    {
+        ESM = GetComponentInParent<EnemyStateManager>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Human"))
         {
             target = collision.gameObject.transform;
-            targetFound = true;
-            ESM.SetState(EnemyStateManager.State.Aggro);
+            targetInRange = true;
+            ESM.SetState(EnemyStateManager.State.Attack);
         }
     }
 
@@ -23,11 +28,12 @@ public class EnemyAggro : MonoBehaviour
         if (collision.gameObject.layer == LayerMask.NameToLayer("Human") && target == collision.gameObject.transform)
         {
             target = null;
-            targetFound = false;
-            ESM.SetState(EnemyStateManager.State.Idle);
+            targetInRange = false;
+            ESM.SetState(EnemyStateManager.State.Aggro);
         }
     }
 
-    public bool IsTargetFound() { return targetFound; }
+    public bool IsTargetFound() { return targetInRange; }
     public Transform GetTarget() { return target; }
+    public CharacterHealth GetCharHealth() { return target.GetComponent<CharacterHealth>(); }
 }

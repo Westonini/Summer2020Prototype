@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 50
-  maxPenetrateCount: 5
+  maxPenetrateCount: 3
 --- !u!61 &538282415715596077
 BoxCollider2D:
   m_ObjectHideFlags: 0
