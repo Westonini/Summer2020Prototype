@@ -6,6 +6,7 @@ using Pathfinding;
 public class EnemyController : MonoBehaviour
 {
     public int damage;
+    public Animator anim;
 
     private EnemyStateManager ESM;
     private EnemyAggro EA;
@@ -34,12 +35,14 @@ public class EnemyController : MonoBehaviour
     {
         aiPath.canMove = false;
         aiDestSetter.target = null;
+        anim.SetBool("Walking", false);
     }
 
     public void Aggro()
     {
         aiPath.canMove = true;
         aiDestSetter.target = EA.GetTarget();
+        anim.SetBool("Walking", true);
     }
 
     public void Attack()
@@ -51,5 +54,6 @@ public class EnemyController : MonoBehaviour
     {
         aiPath.canMove = false;
         aiDestSetter.target = null;
+        anim.SetBool("Walking", false);
     }
 }
