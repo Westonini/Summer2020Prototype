@@ -9,6 +9,11 @@ public class EnemyController : MonoBehaviour
     public float attackCooldown;
     public Animator anim;
 
+    [Space]
+    public GameObject atkHitbox;
+    public Collider2D hitboxCol;
+    public Collider2D movementCol;
+
     private EnemyStateManager ESM;
     private EnemyAggro EA;
     private EnemyMeleeAttack EMA;
@@ -41,6 +46,7 @@ public class EnemyController : MonoBehaviour
         aiPath.canMove = false;
         aiDestSetter.target = null;
         anim.SetBool("Walking", false);
+        ToggleColliders(true);
     }
 
     public void Aggro()
@@ -60,7 +66,7 @@ public class EnemyController : MonoBehaviour
     {
         aiPath.canMove = false;
         aiDestSetter.target = null;
-        anim.SetBool("Walking", false);
+        ToggleColliders(false);
     }
 
     private IEnumerator AttackCooldown()
@@ -74,5 +80,21 @@ public class EnemyController : MonoBehaviour
 
         if (EMA.IsTargetFound())
             StartCoroutine(AttackCooldown());
+    }
+
+    private void ToggleColliders(bool option)
+    {
+        if (option == true)
+        {
+            atkHitbox.SetActive(true);
+            hitboxCol.enabled = true;
+            movementCol.enabled = true;
+        }
+        else
+        {
+            atkHitbox.SetActive(false);
+            hitboxCol.enabled = false;
+            movementCol.enabled = false;
+        }
     }
 }

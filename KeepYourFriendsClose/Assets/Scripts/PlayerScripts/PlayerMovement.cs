@@ -24,4 +24,12 @@ public class PlayerMovement : MonoBehaviour
 
         rb.velocity = new Vector2(horizontalInput, verticalInput).normalized * movementSpd * Time.deltaTime;
     }
+
+    public IEnumerator AlterMovementSpd(float amount, float time)
+    {
+        float baseMovementSpd = movementSpd;
+        movementSpd = movementSpd + amount;
+        yield return new WaitForSeconds(time);
+        movementSpd = baseMovementSpd;
+    }
 }

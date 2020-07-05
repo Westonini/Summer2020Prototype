@@ -14,6 +14,8 @@ public class GunItem : Item
     private GunItemUI GIU;
     private ScreenShake SS;
 
+    public Transform playerTrans;
+
     protected override void Awake()
     {
         base.Awake();
@@ -70,9 +72,15 @@ public class GunItem : Item
         {
             if (!clipEmpty)
             {
-                //Create a projectile and shoot it
+                //Create a projectile
                 Rigidbody2D projectileInstance;
                 projectileInstance = Instantiate(projectilePrefab, shootPoint.position, projectilePrefab.transform.rotation) as Rigidbody2D;
+
+                //Set the shooter variable in Projectile to the object that shot the projectile
+                Projectile proj = projectileInstance.gameObject.GetComponent<Projectile>();
+                proj.SetShooter(playerTrans);
+
+                //Shoot the projectile
                 projectileInstance.velocity = shootPoint.up * shootPower;
 
                 //Parent the projectile with the projectile holder object

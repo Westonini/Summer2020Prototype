@@ -14,6 +14,8 @@ public class Projectile : MonoBehaviour
     Vector2 mouseScreenPosition;
     Vector2 direction;
 
+    private Transform shooter;
+
     void Awake()
     {
         mainCam = Camera.main;
@@ -33,6 +35,14 @@ public class Projectile : MonoBehaviour
             EnemyHealth EH = collision.gameObject.GetComponent<EnemyHealth>();
             EH.TakeDamage(damage);
 
+            EnemyStateManager ESM = collision.gameObject.GetComponentInParent<EnemyStateManager>();
+
+            if (ESM.GetState() == EnemyStateManager.State.Idle)
+            {
+                EnemyAggro EA = collision.gameObject.transform.parent.GetComponentInChildren<EnemyAggro>();
+                EA.SetTarget(shooter);
+            }
+
             currentPenetrateCount++;
 
             if (currentPenetrateCount >= maxPenetrateCount)
@@ -43,4 +53,6 @@ public class Projectile : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    public void SetShooter(Transform _shooter) { shooter = _shooter; }
 }

@@ -22,7 +22,15 @@ public class EnemyHealth : CharacterHealth
 
     protected override void CharacterDeath()
     {
+        StartCoroutine(Death());
+    }
+
+    private IEnumerator Death()
+    {
         ESM.SetState(EnemyStateManager.State.Dead);
+        anim.SetBool("Walking", false);
+        anim.SetBool("Dead", true);
+        yield return new WaitForSeconds(10f);
         transform.parent.SetParent(inactiveEnemies);
         transform.parent.gameObject.SetActive(false);
     }
