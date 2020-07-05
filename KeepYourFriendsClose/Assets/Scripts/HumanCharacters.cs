@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Characters : MonoBehaviour
+public class HumanCharacters : MonoBehaviour
 {
     [System.Serializable]
     public class SpriteList
@@ -25,5 +25,5 @@ public class Characters : MonoBehaviour
         public Sprite backTwoArms;
     }
 
-    public SpriteList[] playerCharacters;
+    public SpriteList[] humanCharacters;
 }

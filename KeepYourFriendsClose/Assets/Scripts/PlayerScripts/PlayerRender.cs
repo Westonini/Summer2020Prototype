@@ -2,25 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerRender : MonoBehaviour
+public class PlayerRender : CharacterRender
 {
     public int chosenChar;
-    private SpriteRenderer sr;
 
     public bool facingRight = true;
     public bool facingDown = true;
 
     public Transform characterTrans;
     public PlayerMovement PM;
-    public Characters characters;
+    public HumanCharacters characters;
 
-    private Characters.SpriteList currentCharacter;
+    private HumanCharacters.SpriteList currentCharacter;
 
     public bool getFacingRight() { return facingRight; }
     public bool getFacingDown() { return facingDown; }
-
-    private Sprite currentFront;
-    private Sprite currentBack;
 
     void OnEnable()
     {
@@ -34,14 +30,9 @@ public class PlayerRender : MonoBehaviour
         PlayerListener._playerFlippedVert -= FlipVert;
     }
 
-    private void Awake()
-    {
-        sr = GetComponent<SpriteRenderer>();
-    }
-
     private void Start()
     {
-        currentCharacter = characters.playerCharacters[chosenChar];
+        currentCharacter = characters.humanCharacters[chosenChar];
         SetSprites(currentCharacter.frontIdle, currentCharacter.backIdle);
     }
 
@@ -69,21 +60,7 @@ public class PlayerRender : MonoBehaviour
         facingDown = !facingDown;
     }
 
-    public void SetSprites(Sprite newFront, Sprite newBack)
-    {
-        currentFront = newFront;
-        currentBack = newBack;
-    }
-
-    public Sprite GetFrontSprite()
-    {
-        return currentFront;
-    }
-    public Sprite GetBackSprite()
-    {
-        return currentBack;
-    }
-    public Characters.SpriteList GetCurrentCharacterSprites()
+    public HumanCharacters.SpriteList GetCurrentCharacterSprites()
     {
         return currentCharacter;
     }

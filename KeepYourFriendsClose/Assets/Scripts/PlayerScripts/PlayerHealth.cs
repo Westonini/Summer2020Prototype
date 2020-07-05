@@ -9,6 +9,8 @@ public class PlayerHealth : CharacterHealth
 {
     public Slider healthBar;
     public TextMeshProUGUI healthText;
+    public string[] hurtSounds;
+    private bool isInvincible;
 
     private void UpdateHealthBar()
     {
@@ -18,12 +20,24 @@ public class PlayerHealth : CharacterHealth
 
     public override void TakeDamage(int amount)
     {
-        base.TakeDamage(amount);
-        UpdateHealthBar();
+        if (!isInvincible)
+        {
+            base.TakeDamage(amount);
+            AudioManager.instance.Play(hurtSounds);
+            UpdateHealthBar();
+            StartCoroutine(Invincibility());
+        }
     }
 
     protected override void CharacterDeath()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    private IEnumerator Invincibility()
+    {
+        isInvincible = true;
+        yield return new WaitForSeconds(0.1f);
+        isInvincible = false;
     }
 }

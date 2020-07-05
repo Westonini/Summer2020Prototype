@@ -6,6 +6,7 @@ using Pathfinding;
 public class EnemyController : MonoBehaviour
 {
     public int damage;
+    public float attackCooldown;
     public Animator anim;
 
     private EnemyStateManager ESM;
@@ -14,6 +15,9 @@ public class EnemyController : MonoBehaviour
 
     private AIPath aiPath;
     private AIDestinationSetter aiDestSetter;
+
+    private bool attackOnCD;
+    private float baseSpeed;
 
     private void Awake()
     {
@@ -29,6 +33,7 @@ public class EnemyController : MonoBehaviour
     {
         ESM.SetState(EnemyStateManager.State.Idle);
         Idle();
+        baseSpeed = aiPath.maxSpeed;
     }
 
     public void Idle()
@@ -47,7 +52,8 @@ public class EnemyController : MonoBehaviour
 
     public void Attack()
     {
-        EMA.GetCharHealth().TakeDamage(damage);
+        if (!attackOnCD)
+            StartCoroutine(AttackCooldown());
     }
 
     public void Dead()
@@ -55,5 +61,18 @@ public class EnemyController : MonoBehaviour
         aiPath.canMove = false;
         aiDestSetter.target = null;
         anim.SetBool("Walking", false);
+    }
+
+    private IEnumerator AttackCooldown()
+    {
+        attackOnCD = true;
+        aiPath.maxSpeed = 0.5f;
+        EMA.GetCharHealth().TakeDamage(damage);
+        yield return new WaitForSeconds(attackCooldown);
+        attackOnCD = false;
+        aiPath.maxSpeed = baseSpeed;
+
+        if (EMA.IsTargetFound())
+            StartCoroutine(AttackCooldown());
     }
 }

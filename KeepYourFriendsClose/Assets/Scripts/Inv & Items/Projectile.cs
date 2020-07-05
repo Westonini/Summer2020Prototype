@@ -28,7 +28,7 @@ public class Projectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Enemy"))
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Enemy") && currentPenetrateCount < maxPenetrateCount)
         {
             EnemyHealth EH = collision.gameObject.GetComponent<EnemyHealth>();
             EH.TakeDamage(damage);

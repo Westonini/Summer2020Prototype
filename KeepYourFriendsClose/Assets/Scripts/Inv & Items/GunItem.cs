@@ -9,6 +9,7 @@ public class GunItem : Item
     public int clipSize;
     public float reloadTime;
     public string[] shootSounds;
+    public string reloadSound;
     private Animator anim;
     private GunItemUI GIU;
     private ScreenShake SS;
@@ -57,6 +58,7 @@ public class GunItem : Item
             StopCoroutine(reloadCoroutine);
             currentlyReloading = false;
             GIU.reloadUI.HideReloadBar();
+            AudioManager.instance.Stop(reloadSound);
         }
 
         GIU.DisableAmmoSprites();
@@ -122,6 +124,7 @@ public class GunItem : Item
 
     IEnumerator ReloadTimer(float timer)
     {
+        AudioManager.instance.Play(reloadSound);
         GIU.reloadUI.ShowReloadBar(timer);
         currentlyReloading = true;
         yield return new WaitForSeconds(timer);
