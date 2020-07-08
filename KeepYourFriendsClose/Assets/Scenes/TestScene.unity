@@ -753,7 +753,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.33
+      value: -1.4150001
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -783,7 +783,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -1063,6 +1063,7 @@ MonoBehaviour:
   atkHitbox: {fileID: 709637354}
   hitboxCol: {fileID: 1463810182}
   movementCol: {fileID: 779933672}
+  isDead: 0
 --- !u!114 &125998399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1181,6 +1182,7 @@ MonoBehaviour:
   atkHitbox: {fileID: 2028991236}
   hitboxCol: {fileID: 1948687223}
   movementCol: {fileID: 1988428345}
+  isDead: 0
 --- !u!114 &131587985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1410,6 +1412,7 @@ MonoBehaviour:
   atkHitbox: {fileID: 2094433005}
   hitboxCol: {fileID: 1884733085}
   movementCol: {fileID: 1897122783}
+  isDead: 0
 --- !u!114 &148215538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1889,7 +1892,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.14
+      value: 3.055
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -1919,7 +1922,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -3312,7 +3315,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.25
+      value: 0.16499996
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -3342,7 +3345,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -3393,7 +3396,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.8
+      value: 0.715
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -3423,7 +3426,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -3474,7 +3477,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.6
+      value: -3.685
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -3504,7 +3507,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -5107,7 +5110,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.13
+      value: 2.045
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -5137,7 +5140,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -5182,7 +5185,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.915
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -5771,7 +5774,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.88
+      value: -1.965
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -5801,7 +5804,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -6007,7 +6010,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.565
+      value: -3.65
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -6037,7 +6040,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -6386,7 +6389,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.64
+      value: -2.7250001
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -6416,7 +6419,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -7163,7 +7166,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.02
+      value: -2.105
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -7193,7 +7196,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -7966,7 +7969,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.36
+      value: 3.2749999
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -7996,7 +7999,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -8139,10 +8142,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1287751596}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.184, y: -0.001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1437179098}
+  - {fileID: 2075613394}
   m_Father: {fileID: 1466550050}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8208,6 +8213,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 204598add08dfc74298e6ef042f72dff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  swingCol: {fileID: 1437179099}
+  swingSR: {fileID: 1437179097}
+  knife2: {fileID: 2075613395}
 --- !u!1 &1322096341
 GameObject:
   m_ObjectHideFlags: 0
@@ -8311,7 +8319,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.49
+      value: 1.405
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -8341,7 +8349,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -9221,6 +9229,144 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1437179096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1437179098}
+  - component: {fileID: 1437179097}
+  - component: {fileID: 1437179099}
+  - component: {fileID: 1437179100}
+  - component: {fileID: 1437179101}
+  - component: {fileID: 1437179102}
+  m_Layer: 0
+  m_Name: KnifeSlash
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1437179097
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437179096}
+  m_Enabled: 0
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 20
+  m_Sprite: {fileID: 21300000, guid: 38fd67acfc655a841a21bb890085fda6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1437179098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437179096}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.184, y: 0.026, z: 0}
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
+  m_Children: []
+  m_Father: {fileID: 1287751597}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1437179099
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437179096}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.002581191, y: 0.14696541}
+  serializedVersion: 2
+  m_Radius: 0.23913805
+--- !u!114 &1437179100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437179096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 690641fff29115d46a611f062382250e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1437179101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437179096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 917a82816329b6141b492482461fdf1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1964586637}
+--- !u!114 &1437179102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437179096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49ee1df02f7d18c4db944d0bce47e6e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 50
 --- !u!1 &1463810179
 GameObject:
   m_ObjectHideFlags: 0
@@ -20730,7 +20876,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.563
+      value: 1.4779999
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -20760,7 +20906,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -20891,6 +21037,7 @@ MonoBehaviour:
   atkHitbox: {fileID: 1322096341}
   hitboxCol: {fileID: 1547802153}
   movementCol: {fileID: 888221720}
+  isDead: 0
 --- !u!114 &1648541554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21800,7 +21947,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.23
+      value: 3.145
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -21830,7 +21977,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -22243,6 +22390,7 @@ MonoBehaviour:
   atkHitbox: {fileID: 2091960495}
   hitboxCol: {fileID: 105714423}
   movementCol: {fileID: 107916939}
+  isDead: 0
 --- !u!114 &1826353541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23585,6 +23733,7 @@ MonoBehaviour:
   atkHitbox: {fileID: 1041277398}
   hitboxCol: {fileID: 1498657833}
   movementCol: {fileID: 1257229162}
+  isDead: 0
 --- !u!114 &2011446372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24016,6 +24165,87 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 19
   m_Sprite: {fileID: -2161590967150370147, guid: 2b6c0a0a69b1a704cb6581521d6a07de,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &2075613393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2075613394}
+  - component: {fileID: 2075613395}
+  m_Layer: 0
+  m_Name: Knife2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2075613394
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075613393}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.0348, y: 0.0011, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1287751597}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2075613395
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075613393}
+  m_Enabled: 0
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 20
+  m_Sprite: {fileID: 1801263428120863714, guid: f4f6cf4ef17a0074ebb5dcb4e32e173a,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -24802,7 +25032,7 @@ PrefabInstance:
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.08500004
       objectReference: {fileID: 0}
     - target: {fileID: 2703169782162328492, guid: 0d3d64d38486d3748950fe02efa23c26,
         type: 3}
@@ -24866,7 +25096,7 @@ PrefabInstance:
     - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
         type: 3}
       propertyPath: sounds.Array.size
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
         type: 3}
@@ -25066,6 +25296,2256 @@ PrefabInstance:
     - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
         type: 3}
       propertyPath: sounds.Array.data[7].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[8].name
+      value: KnifeSwing
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[8].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 00641e2175ec2b64382df7bb9d2c9ce0, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[8].volume
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[8].pitch
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[8].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[9].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[9].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[9].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[9].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[9].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[10].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[10].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[10].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[10].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[10].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[11].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[11].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[11].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[11].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[11].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[12].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[12].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[12].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[12].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[12].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[13].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[13].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[13].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[13].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[13].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[14].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[14].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[14].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[14].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[14].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[15].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[15].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[15].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[15].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[15].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[16].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[16].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[16].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[16].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[16].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[17].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[17].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[17].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[17].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[17].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[18].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[18].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[18].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[18].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[18].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[19].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[19].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[19].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[19].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[19].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[20].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[20].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[20].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[20].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[20].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[21].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[21].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[21].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[21].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[21].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[22].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[22].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[22].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[22].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[22].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[23].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[23].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[23].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[23].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[23].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[24].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[24].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[24].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[24].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[24].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[25].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[25].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[25].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[25].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[25].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[26].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[26].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[26].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[26].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[26].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[27].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[27].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[27].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[27].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[27].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[28].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[28].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[28].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[28].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[28].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[29].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[29].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[29].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[29].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[29].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[30].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[30].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[30].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[30].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[30].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[31].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[31].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[31].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[31].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[31].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[32].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[32].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[32].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[32].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[32].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[33].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[33].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[33].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[33].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[33].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[34].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[34].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[34].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[34].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[34].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[35].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[35].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[35].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[35].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[35].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[36].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[36].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[36].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[36].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[36].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[37].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[37].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[37].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[37].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[37].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[38].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[38].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[38].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[38].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[38].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[39].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[39].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[39].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[39].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[39].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[40].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[40].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[40].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[40].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[40].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[41].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[41].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[41].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[41].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[41].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[42].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[42].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[42].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[42].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[42].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[43].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[43].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[43].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[43].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[43].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[44].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[44].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[44].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[44].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[44].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[45].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[45].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[45].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[45].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[45].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[46].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[46].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[46].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[46].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[46].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[47].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[47].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[47].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[47].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[47].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[48].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[48].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[48].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[48].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[48].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[49].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[49].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[49].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[49].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[49].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[50].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[50].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[50].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[50].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[50].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[51].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[51].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[51].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[51].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[51].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[52].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[52].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[52].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[52].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[52].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[53].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[53].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[53].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[53].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[53].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[54].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[54].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[54].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[54].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[54].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[55].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[55].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[55].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[55].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[55].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[56].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[56].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[56].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[56].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[56].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[57].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[57].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[57].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[57].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[57].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[58].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[58].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[58].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[58].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[58].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[59].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[59].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[59].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[59].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[59].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[60].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[60].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[60].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[60].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[60].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[61].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[61].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[61].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[61].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[61].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[62].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[62].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[62].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[62].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[62].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[63].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[63].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[63].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[63].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[63].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[64].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[64].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[64].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[64].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[64].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[65].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[65].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[65].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[65].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[65].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[66].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[66].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[66].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[66].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[66].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[67].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[67].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[67].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[67].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[67].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[68].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[68].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[68].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[68].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[68].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[69].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[69].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[69].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[69].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[69].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[70].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[70].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[70].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[70].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[70].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[71].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[71].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[71].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[71].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[71].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[72].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[72].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[72].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[72].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[72].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[73].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[73].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[73].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[73].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[73].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[74].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[74].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[74].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[74].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[74].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[75].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[75].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[75].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[75].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[75].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[76].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[76].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[76].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[76].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[76].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[77].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[77].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[77].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[77].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[77].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[78].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[78].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[78].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[78].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[78].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[79].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[79].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[79].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[79].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[79].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[80].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[80].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[80].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[80].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[80].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[81].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[81].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[81].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[81].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[81].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[82].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[82].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[82].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[82].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[82].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[83].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[83].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[83].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[83].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[83].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[84].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[84].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[84].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[84].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[84].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[85].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[85].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[85].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[85].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[85].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[86].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[86].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[86].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[86].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[86].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[87].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[87].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[87].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[87].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[87].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[88].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[88].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[88].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[88].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[88].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[89].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[89].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[89].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[89].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[89].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[90].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[90].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[90].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[90].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[90].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[91].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[91].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[91].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[91].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[91].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[92].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[92].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[92].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[92].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[92].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[93].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[93].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[93].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[93].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[93].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[94].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[94].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[94].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[94].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[94].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[95].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[95].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[95].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[95].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[95].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[96].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[96].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[96].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[96].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[96].pitchVariance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[97].name
+      value: GunReload2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[97].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3504e3d4708e54581c79a3d85a2eb6, type: 3}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[97].volume
+      value: 0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[97].pitch
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232758265803218286, guid: f0f45da14e15f0344aad5bf07a12f197,
+        type: 3}
+      propertyPath: sounds.Array.data[97].pitchVariance
       value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 1970230556598319244, guid: f0f45da14e15f0344aad5bf07a12f197,

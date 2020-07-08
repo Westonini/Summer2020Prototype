@@ -27,13 +27,17 @@ public class EnemyStateManager : MonoBehaviour
     {
         currentState = newState;
 
-        if (currentState == State.Idle)
-            EC.Idle();
-        else if (currentState == State.Aggro)
-            EC.Aggro();
-        else if (currentState == State.Attack)
-            EC.Attack();
-        else if (currentState == State.Dead)
+        if (!EC.isDead)
+        {
+            if (currentState == State.Idle)
+                EC.Idle();
+            else if (currentState == State.Aggro)
+                EC.Aggro();
+            else if (currentState == State.Attack)
+                EC.Attack();
+        }
+
+        if (currentState == State.Dead)
             EC.Dead();
     }
 }

@@ -24,6 +24,8 @@ public class EnemyController : MonoBehaviour
     private bool attackOnCD;
     private float baseSpeed;
 
+    [HideInInspector]public bool isDead;
+
     private void Awake()
     {
         ESM = GetComponent<EnemyStateManager>();
@@ -67,6 +69,7 @@ public class EnemyController : MonoBehaviour
         aiPath.canMove = false;
         aiDestSetter.target = null;
         ToggleColliders(false);
+        isDead = true;
     }
 
     private IEnumerator AttackCooldown()
