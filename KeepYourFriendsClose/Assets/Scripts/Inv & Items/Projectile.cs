@@ -16,6 +16,8 @@ public class Projectile : MonoBehaviour
 
     private Transform shooter;
 
+    private bool wallColDisabled;
+
     void Awake()
     {
         mainCam = Camera.main;
@@ -26,6 +28,7 @@ public class Projectile : MonoBehaviour
         mouseScreenPosition = mainCam.ScreenToWorldPoint(Input.mousePosition);
         direction = (mouseScreenPosition - (Vector2)transform.position).normalized;
         transform.up = direction;
+        StartCoroutine(TurnOnWallCollision());
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -48,6 +51,14 @@ public class Projectile : MonoBehaviour
             if (currentPenetrateCount >= maxPenetrateCount)
                 Destroy(gameObject);
         }
+        if (collision.gameObject.layer == LayerMask.NameToLayer("NonDestructable") && !wallColDisabled)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
         if (collision.gameObject.layer == LayerMask.NameToLayer("NonDestructable"))
         {
             Destroy(gameObject);
@@ -55,4 +66,12 @@ public class Projectile : MonoBehaviour
     }
 
     public void SetShooter(Transform _shooter) { shooter = _shooter; }
+
+    //This IEnumerator is made to ensure that when the projectile first spawns it doesnt immediately get destroyed by a wall
+    private IEnumerator TurnOnWallCollision()
+    {
+        wallColDisabled = true;
+        yield return new WaitForSeconds(0.01f);
+        wallColDisabled = false;
+    }
 }
