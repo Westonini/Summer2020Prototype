@@ -15,5 +15,7 @@ public class ScreenShake : MonoBehaviour
     {
         if (intensity == 1)
             anim.SetTrigger("Shake01");
+        else if (intensity == 2)
+            anim.SetTrigger("Shake02");
     }
 }

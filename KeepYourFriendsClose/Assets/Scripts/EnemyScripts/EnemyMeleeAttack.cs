@@ -15,7 +15,7 @@ public class EnemyMeleeAttack : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Human") && ESM.GetState() != EnemyStateManager.State.Dead)
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Human"))
         {
             target = collision.gameObject.transform;
             targetInRange = true;
@@ -25,7 +25,7 @@ public class EnemyMeleeAttack : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Human") && target == collision.gameObject.transform && ESM.GetState() != EnemyStateManager.State.Dead)
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Human") && target == collision.gameObject.transform)
         {
             target = null;
             targetInRange = false;

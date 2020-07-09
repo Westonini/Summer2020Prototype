@@ -11,6 +11,13 @@ public class PlayerHealth : CharacterHealth
     public TextMeshProUGUI healthText;
     public string[] hurtSounds;
     private bool isInvincible;
+    private ScreenShake SS;
+
+    protected override void Awake()
+    {
+        base.Awake();
+        SS = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<ScreenShake>();
+    }
 
     private void UpdateHealthBar()
     {
@@ -23,6 +30,7 @@ public class PlayerHealth : CharacterHealth
         if (!isInvincible)
         {
             base.TakeDamage(amount);
+            SS.DoScreenShake(2);
             AudioManager.instance.Play(hurtSounds);
             UpdateHealthBar();
             StartCoroutine(Invincibility());

@@ -25,10 +25,10 @@ public class EnemyStateManager : MonoBehaviour
 
     public void SetState(State newState)
     {
-        currentState = newState;
-
         if (!EC.isDead)
         {
+            currentState = newState;
+
             if (currentState == State.Idle)
                 EC.Idle();
             else if (currentState == State.Aggro)
@@ -37,7 +37,10 @@ public class EnemyStateManager : MonoBehaviour
                 EC.Attack();
         }
 
-        if (currentState == State.Dead)
+        if (newState == State.Dead)
+        {
+            currentState = newState;
             EC.Dead();
+        }
     }
 }

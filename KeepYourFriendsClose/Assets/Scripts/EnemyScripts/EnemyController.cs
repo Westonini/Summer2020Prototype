@@ -48,7 +48,6 @@ public class EnemyController : MonoBehaviour
         aiPath.canMove = false;
         aiDestSetter.target = null;
         anim.SetBool("Walking", false);
-        ToggleColliders(true);
     }
 
     public void Aggro()
@@ -66,10 +65,10 @@ public class EnemyController : MonoBehaviour
 
     public void Dead()
     {
+        isDead = true;
         aiPath.canMove = false;
         aiDestSetter.target = null;
         ToggleColliders(false);
-        isDead = true;
     }
 
     private IEnumerator AttackCooldown()
@@ -81,7 +80,7 @@ public class EnemyController : MonoBehaviour
         attackOnCD = false;
         aiPath.maxSpeed = baseSpeed;
 
-        if (EMA.IsTargetFound())
+        if (EMA.IsTargetFound() && !isDead)
             StartCoroutine(AttackCooldown());
     }
 
