@@ -15,11 +15,14 @@ namespace Pathfinding {
 	[UniqueComponent(tag = "ai.destination")]
 	[HelpURL("http://arongranberg.com/astar/docs/class_pathfinding_1_1_patrol.php")]
 	public class Patrol : VersionedMonoBehaviour {
-		/// <summary>Target points to move to in order</summary>
-		public Transform[] targets;
+        /// <summary>Target points to move to in order</summary>
+        //public Transform[] targets;
 
-		/// <summary>Time in seconds to wait at each target</summary>
-		public float delay = 0;
+        /// <summary>Time in seconds to wait at each target</summary>
+        private float delay;
+        private float x1;
+        private float y1;
+        private Vector3 newPos;
 
 		/// <summary>Current target index</summary>
 		int index;
@@ -30,11 +33,12 @@ namespace Pathfinding {
 		protected override void Awake () {
 			base.Awake();
 			agent = GetComponent<IAstarAI>();
-		}
+            switchTime = Time.time + delay;
+        }
 
 		/// <summary>Update is called once per frame</summary>
 		void Update () {
-			if (targets.Length == 0) return;
+			//if (targets.Length == 0) return;
 
 			bool search = false;
 
@@ -48,12 +52,20 @@ namespace Pathfinding {
 				index = index + 1;
 				search = true;
 				switchTime = float.PositiveInfinity;
-			}
+                x1 = Random.Range(-3, 3);
+                y1 = Random.Range(-3, 3);
+                newPos = new Vector3(transform.position.x + x1, transform.position.y + y1, transform.position.z);
 
-			index = index % targets.Length;
-			agent.destination = targets[index].position;
+                delay = Random.Range(5, 10);
+                switchTime = Time.time + delay;
+            }
 
-			if (search) agent.SearchPath();
+            agent.destination = newPos;
+
+            //index = index % targets.Length;
+            //agent.destination = targets[index].position;
+
+            if (search) agent.SearchPath();
 		}
 	}
 }

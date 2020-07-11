@@ -28,7 +28,6 @@ public class EnemyHealth : CharacterHealth
     private IEnumerator Death()
     {
         ESM.SetState(EnemyStateManager.State.Dead);
-        anim.SetBool("Walking", false);
         anim.SetBool("Dead", true);
         yield return new WaitForSeconds(10f);
         transform.parent.SetParent(inactiveEnemies);

@@ -32,7 +32,6 @@ public class EnemyAggro : MonoBehaviour
     public Transform GetTarget() { return target; }
     public void SetTarget(Transform _target)
     {
-        Debug.Log(_target);
         target = _target;
         targetFound = true;
         ESM.SetState(EnemyStateManager.State.Aggro);

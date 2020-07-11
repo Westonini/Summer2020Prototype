@@ -20,6 +20,7 @@ public class EnemyController : MonoBehaviour
 
     private AIPath aiPath;
     private AIDestinationSetter aiDestSetter;
+    private Patrol aiPatrol;
 
     private bool attackOnCD;
     private float baseSpeed;
@@ -31,6 +32,7 @@ public class EnemyController : MonoBehaviour
         ESM = GetComponent<EnemyStateManager>();
         aiPath = GetComponent<AIPath>();
         aiDestSetter = GetComponent<AIDestinationSetter>();
+        aiPatrol = GetComponent<Patrol>();
 
         EA = GetComponentInChildren<EnemyAggro>();
         EMA = GetComponentInChildren<EnemyMeleeAttack>();
@@ -45,16 +47,18 @@ public class EnemyController : MonoBehaviour
 
     public void Idle()
     {
-        aiPath.canMove = false;
         aiDestSetter.target = null;
-        anim.SetBool("Walking", false);
+        aiDestSetter.enabled = false;
+        aiPatrol.enabled = true;
+        aiPath.canMove = true;
     }
 
     public void Aggro()
     {
-        aiPath.canMove = true;
+        aiDestSetter.enabled = true;
+        aiPatrol.enabled = false;
+
         aiDestSetter.target = EA.GetTarget();
-        anim.SetBool("Walking", true);
     }
 
     public void Attack()
@@ -66,9 +70,12 @@ public class EnemyController : MonoBehaviour
     public void Dead()
     {
         isDead = true;
+        ToggleColliders(false);
+
         aiPath.canMove = false;
         aiDestSetter.target = null;
-        ToggleColliders(false);
+        aiDestSetter.enabled = false;
+        aiPatrol.enabled = false;
     }
 
     private IEnumerator AttackCooldown()
