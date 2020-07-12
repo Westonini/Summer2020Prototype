@@ -23,6 +23,7 @@ namespace Pathfinding {
         private float x1;
         private float y1;
         private Vector3 newPos;
+        private Vector3 startingPos;
 
 		/// <summary>Current target index</summary>
 		int index;
@@ -34,6 +35,7 @@ namespace Pathfinding {
 			base.Awake();
 			agent = GetComponent<IAstarAI>();
             switchTime = Time.time + delay;
+            startingPos = transform.position;
         }
 
 		/// <summary>Update is called once per frame</summary>
@@ -52,11 +54,19 @@ namespace Pathfinding {
 				index = index + 1;
 				search = true;
 				switchTime = float.PositiveInfinity;
+
                 x1 = Random.Range(-3, 3);
                 y1 = Random.Range(-3, 3);
                 newPos = new Vector3(transform.position.x + x1, transform.position.y + y1, transform.position.z);
 
                 delay = Random.Range(5, 10);
+
+                if (newPos.x >= startingPos.x + 6 || newPos.x <= startingPos.x - 6 || newPos.y >= startingPos.y + 6 || newPos.y <= startingPos.y - 6)
+                {
+                    newPos = startingPos;
+                    delay = 10;
+                }
+
                 switchTime = Time.time + delay;
             }
 
