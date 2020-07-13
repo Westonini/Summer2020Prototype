@@ -35,15 +35,15 @@ public class Projectile : MonoBehaviour
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Enemy") && currentPenetrateCount < maxPenetrateCount)
         {
-            EnemyHealth EH = collision.gameObject.GetComponent<EnemyHealth>();
-            EH.TakeDamage(damage);
+            AIHealth healthScript = collision.gameObject.GetComponent<AIHealth>();
+            healthScript.TakeDamage(damage);
 
-            EnemyStateManager ESM = collision.gameObject.GetComponentInParent<EnemyStateManager>();
+            AIStateManager stateManager = collision.gameObject.GetComponentInParent<AIStateManager>();
 
-            if (ESM.GetState() == EnemyStateManager.State.Idle)
+            if (stateManager.GetState() == AIStateManager.State.Idle)
             {
-                EnemyAggro EA = collision.gameObject.transform.parent.GetComponentInChildren<EnemyAggro>();
-                EA.SetTarget(shooter);
+                AITargetDetector detectorScript = collision.gameObject.transform.parent.GetComponentInChildren<AITargetDetector>();
+                detectorScript.SetTarget(shooter);
             }
 
             currentPenetrateCount++;

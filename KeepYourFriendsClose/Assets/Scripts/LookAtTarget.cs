@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class LookAtTarget : MonoBehaviour
 {
-    private EnemyAggro EA;
+    private AITargetDetector detectorScript;
 
     void Awake()
     {
-        EA = gameObject.transform.parent.GetComponentInChildren<EnemyAggro>();
+        detectorScript = gameObject.transform.parent.GetComponentInChildren<AITargetDetector>();
     }
 
     void Update()
     {
-        if (EA.IsTargetFound())
-            transform.up = (EA.GetTarget().transform.position - transform.position).normalized;
+        if (detectorScript.IsTargetFound())
+            transform.up = (detectorScript.GetTarget().transform.position - transform.position).normalized;
     }
 }

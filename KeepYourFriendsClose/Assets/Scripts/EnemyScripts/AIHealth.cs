@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHealth : CharacterHealth
+public class AIHealth : CharacterHealth
 {
-    private EnemyStateManager ESM;
-    public Transform inactiveEnemies;
+    private AIStateManager stateManager;
+    public Transform inactiveEntities;
     public string[] hurtSounds;
 
     protected override void Awake()
     {
         base.Awake();
-        ESM = GetComponentInParent<EnemyStateManager>();
+        stateManager = GetComponentInParent<AIStateManager>();
     }
 
     public override void TakeDamage(int amount)
@@ -27,10 +27,10 @@ public class EnemyHealth : CharacterHealth
 
     private IEnumerator Death()
     {
-        ESM.SetState(EnemyStateManager.State.Dead);
+        stateManager.SetState(AIStateManager.State.Dead);
         anim.SetBool("Dead", true);
         yield return new WaitForSeconds(10f);
-        transform.parent.SetParent(inactiveEnemies);
+        transform.parent.SetParent(inactiveEntities);
         transform.parent.gameObject.SetActive(false);
     }
 }

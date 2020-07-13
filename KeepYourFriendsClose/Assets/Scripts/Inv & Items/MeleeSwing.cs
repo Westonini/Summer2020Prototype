@@ -10,8 +10,8 @@ public class MeleeSwing : MonoBehaviour
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Enemy"))
         {
-            EnemyHealth EH = collision.gameObject.GetComponent<EnemyHealth>();
-            EH.TakeDamage(damage);
+            AIHealth healthScript = collision.gameObject.GetComponent<AIHealth>();
+            healthScript.TakeDamage(damage);
         }
     }
 }

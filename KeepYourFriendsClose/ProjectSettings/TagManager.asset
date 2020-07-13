@@ -17,7 +17,7 @@ TagManager:
   - 
   - NonDestructable
   - Enemy
-  - AggroRange
+  - 
   - Human
   - NonDestructable_ShootThrough
   - Darkness

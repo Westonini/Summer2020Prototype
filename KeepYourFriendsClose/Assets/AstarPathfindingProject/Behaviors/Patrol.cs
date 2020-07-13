@@ -24,7 +24,7 @@ namespace Pathfinding {
         private float y1;
         private Vector3 newPos;
         private Vector3 startingPos;
-        public bool isStationary = false;
+        public float maxDistancePerMove = 3;
 
 		/// <summary>Current target index</summary>
 		int index;
@@ -56,8 +56,8 @@ namespace Pathfinding {
 				search = true;
 				switchTime = float.PositiveInfinity;
 
-                x1 = Random.Range(-3, 3);
-                y1 = Random.Range(-3, 3);
+                x1 = Random.Range(-maxDistancePerMove, maxDistancePerMove);
+                y1 = Random.Range(-maxDistancePerMove, maxDistancePerMove);
 
                 newPos = new Vector3(transform.position.x + x1, transform.position.y + y1, transform.position.z);
 
