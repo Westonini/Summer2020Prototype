@@ -49,7 +49,7 @@ public class EnemyController : MonoBehaviour
     {
         aiDestSetter.target = null;
         aiDestSetter.enabled = false;
-        aiPatrol.enabled = true;
+        if (!aiPatrol.isStationary) { aiPatrol.enabled = true; }
         aiPath.canMove = true;
     }
 

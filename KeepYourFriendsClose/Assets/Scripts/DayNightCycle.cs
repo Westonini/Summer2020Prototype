@@ -8,8 +8,10 @@ public class DayNightCycle : MonoBehaviour
     private Light2D sun;
     public bool turnCycleOn = false;
     public float periodDuration = 120f;
+
+    [Space]
+    public int timeOfDay = 0;
     private int period;
-    private float timer = 0f;
 
     public delegate void DayTime();
     public static event DayTime _dayTime;
@@ -26,6 +28,30 @@ public class DayNightCycle : MonoBehaviour
     {
         if (turnCycleOn)
             StartCoroutine(ProgressCycle());
+        else
+        {
+            if (timeOfDay == 0)
+                sun.intensity = 1f;
+            if (timeOfDay == 1)
+                sun.intensity = 0.8f;
+            if (timeOfDay == 2)
+                sun.intensity = 0.6f;
+            if (timeOfDay == 3)
+            {
+                sun.intensity = 0.4f;
+                if (_nightTime != null) { _nightTime(); }
+            }
+            if (timeOfDay == 4)
+            {
+                sun.intensity = 0.2f;
+                if (_nightTime != null) { _nightTime(); }
+            }
+            if (timeOfDay == 5)
+            {
+                sun.intensity = 0.17f;
+                if (_nightTime != null) { _nightTime(); }
+            }
+        }
     }
 
     private IEnumerator ProgressCycle()

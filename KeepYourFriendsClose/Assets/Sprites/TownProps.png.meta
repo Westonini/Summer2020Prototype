@@ -29,6 +29,45 @@ TextureImporter:
   - first:
       213: 3850768074167551419
     second: TownProps_8
+  - first:
+      213: 2144879458699952578
+    second: TownProps_9
+  - first:
+      213: 2445397963444463337
+    second: TownProps_10
+  - first:
+      213: 2317926806474652778
+    second: TownProps_11
+  - first:
+      213: 5930865375322421607
+    second: TownProps_12
+  - first:
+      213: 2404364726405234336
+    second: TownProps_13
+  - first:
+      213: -8020993807951271309
+    second: TownProps_14
+  - first:
+      213: 4864568516047636814
+    second: TownProps_15
+  - first:
+      213: 7394294454438732494
+    second: TownProps_16
+  - first:
+      213: 1421847990273553170
+    second: TownProps_17
+  - first:
+      213: -818988353584538146
+    second: TownProps_18
+  - first:
+      213: -5401562160205993598
+    second: TownProps_19
+  - first:
+      213: 5975772561713581099
+    second: TownProps_20
+  - first:
+      213: 8636183332844757529
+    second: TownProps_21
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -117,7 +156,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -127,7 +166,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4961f1c15e152f49bdb5db2a8afa8e9
+      spriteID: 11b8326349f1b22499af523d22d63ea8
       internalID: -7879005836788402348
       vertices: []
       indices: 
@@ -138,7 +177,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 128
+        y: 256
         width: 64
         height: 64
       alignment: 9
@@ -148,7 +187,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd468fe827e719e4b827c1f8852ac70b
+      spriteID: 30beabd053f56a84d935b401bce0fec4
       internalID: -4592992755686283109
       vertices: []
       indices: 
@@ -159,6 +198,174 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb50e46255901cb4b8b8058d47f5880b
+      internalID: 4843553417391667613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TownProps_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3efd59c865e2ff4c99688950e994c73
+      internalID: -8780053916266188360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TownProps_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab4a9606d659734987d96f09b4e07f2
+      internalID: 2191419509306746127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TownProps_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afa72e9099701a4685a33f8374c15a5
+      internalID: -4732486390863740589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TownProps_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc215019a0b39b4cb2fa7c05f2a3d74
+      internalID: 1943993941856027169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TownProps_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb9bd766bf43ba46b382f59d993f493
+      internalID: 3131376033617381159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TownProps_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cac8eb7d8afbe49b655d57dcdaf6df
+      internalID: 3850768074167551419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TownProps_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee948848cc274424bad5f3d673eeb35c
+      internalID: 2144879458699952578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TownProps_10
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 128
         width: 64
         height: 64
@@ -169,14 +376,98 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f2788cd96fac2a4cab435556475dfa2
-      internalID: 4843553417391667613
+      spriteID: f176d5379a775214bab3dc5818a121c3
+      internalID: 2445397963444463337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TownProps_3
+      name: TownProps_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7259ad9e6f84184f8951cd0978f8fdd
+      internalID: 2317926806474652778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TownProps_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab11b17ca5ccae45b6c492e3587e026
+      internalID: 5930865375322421607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TownProps_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2137f6dfbc1964e91bd39115b402d2
+      internalID: 2404364726405234336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TownProps_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b52ed75434d065409f514b254de1ee3
+      internalID: -8020993807951271309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TownProps_15
       rect:
         serializedVersion: 2
         x: 0
@@ -190,14 +481,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cac0328d3ad849409dd790924c700c4
-      internalID: -8780053916266188360
+      spriteID: 70f1d7f35c23a0d4cb4811a401a11494
+      internalID: 4864568516047636814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TownProps_4
+      name: TownProps_16
       rect:
         serializedVersion: 2
         x: 64
@@ -211,14 +502,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5b104e81066b854ab6eba7b02671288
-      internalID: 2191419509306746127
+      spriteID: 2a739c8dd4ca5744a8173740d5d4ed4c
+      internalID: 7394294454438732494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TownProps_5
+      name: TownProps_17
       rect:
         serializedVersion: 2
         x: 128
@@ -232,14 +523,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3e384bff867d5442b6ab36da6521014
-      internalID: -4732486390863740589
+      spriteID: 517deade9cfea3449a2403c1e335251e
+      internalID: 1421847990273553170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TownProps_6
+      name: TownProps_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce5bbc2f85f34f4b8184fc47049ad79
+      internalID: -818988353584538146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TownProps_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51e3dd476445c343b8c79f955de2fe4
+      internalID: -5401562160205993598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TownProps_20
       rect:
         serializedVersion: 2
         x: 0
@@ -253,14 +586,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 503a62751df716d4c9601c208ae5e6bb
-      internalID: 1943993941856027169
+      spriteID: d933f49f950433f488df1bffcda92334
+      internalID: 5975772561713581099
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TownProps_7
+      name: TownProps_21
       rect:
         serializedVersion: 2
         x: 64
@@ -274,29 +607,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edc2a94e497ba3c4a96d88ff97aa93be
-      internalID: 3131376033617381159
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TownProps_8
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f595009569a470241aa2609d44d1d477
-      internalID: 3850768074167551419
+      spriteID: 19039d986dedd4042a822690463e9ffd
+      internalID: 8636183332844757529
       vertices: []
       indices: 
       edges: []
