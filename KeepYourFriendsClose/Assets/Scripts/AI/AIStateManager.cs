@@ -12,7 +12,6 @@ public class AIStateManager : MonoBehaviour
         Aggro,
         Dead
     }
-
     public enum MovementType
     {
         Stationary,
@@ -20,9 +19,15 @@ public class AIStateManager : MonoBehaviour
         Follower,
         Roamer
     }
+    public enum AttackType
+    {
+        Melee,
+        Ranged
+    }
 
     private State currentState;
     public MovementType movementType;
+    public AttackType attackType;
 
     private void Awake()
     {
@@ -31,6 +36,7 @@ public class AIStateManager : MonoBehaviour
 
     public State GetState() { return currentState; }
     public MovementType GetMovementType() { return movementType; }
+    public AttackType GetAttackType() { return attackType;  }
 
     public void SetState(State newState)
     {
@@ -51,4 +57,5 @@ public class AIStateManager : MonoBehaviour
         }
     }
     public void SetMovementType(MovementType newMovementType) { movementType = newMovementType; }
+    public void SetAttackType(AttackType newAttackType) { attackType = newAttackType; }
 }

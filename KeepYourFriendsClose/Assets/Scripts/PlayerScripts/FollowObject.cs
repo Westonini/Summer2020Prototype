@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class FollowObject : MonoBehaviour
 {
-    public Transform playerTrans;
+    public Transform trans;
 
     void LateUpdate()
     {
-        transform.position = new Vector3(playerTrans.position.x, playerTrans.position.y, -13);
+        transform.position = new Vector3(trans.position.x, trans.position.y, 1);
     }
 }

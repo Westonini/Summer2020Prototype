@@ -12,6 +12,9 @@ public class AIMeleeAttack : AIAttack
     private CharacterHealth characterHealth;
     private bool withinRange;
 
+    public delegate void Attacked();
+    public event Attacked _attacked;
+
     private void Awake()
     {
         baseSpeed = aiPath.maxSpeed;
@@ -26,11 +29,21 @@ public class AIMeleeAttack : AIAttack
             Attack();
         }
     }
+    protected void OnTriggerStay2D(Collider2D collision)
+    {
+        if (targetLayer == (targetLayer | 1 << collision.gameObject.layer) && stateManager.GetState() != AIStateManager.State.Dead && !onCooldown && !withinRange)
+        {
+            characterHealth = collision.gameObject.GetComponent<CharacterHealth>();
+            withinRange = true;
+            Attack();
+        }
+    }
     protected void OnTriggerExit2D(Collider2D collision)
     {
         if (targetLayer == (targetLayer | 1 << collision.gameObject.layer))
         {
             withinRange = false;
+            characterHealth = null;
         }
     }
 
@@ -41,6 +54,7 @@ public class AIMeleeAttack : AIAttack
 
     protected override IEnumerator AttackCooldown()
     {
+        if (_attacked != null) { _attacked(); }
         onCooldown = true;
         aiPath.maxSpeed = 0.5f;
         characterHealth.TakeDamage(damage);
@@ -48,7 +62,7 @@ public class AIMeleeAttack : AIAttack
         onCooldown = false;
         aiPath.maxSpeed = baseSpeed;
 
-        if (withinRange && stateManager.GetState() != AIStateManager.State.Dead)
+        if (withinRange && stateManager.GetState() != AIStateManager.State.Dead && characterHealth.GetHealth() != 0)
             StartCoroutine(AttackCooldown());
     }
 }

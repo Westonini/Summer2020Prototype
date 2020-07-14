@@ -1,12 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.LWRP;
 
 public class AIHealth : CharacterHealth
 {
     private AIStateManager stateManager;
     public Transform inactiveEntities;
     public string[] hurtSounds;
+
+    [Space]
+    public Light2D flashlight;
+    public SpriteRenderer weapon;
 
     protected override void Awake()
     {
@@ -22,11 +27,14 @@ public class AIHealth : CharacterHealth
 
     protected override void CharacterDeath()
     {
-        StartCoroutine(Death());
+        if (stateManager.GetState() != AIStateManager.State.Dead)
+            StartCoroutine(Death());
     }
 
     private IEnumerator Death()
     {
+        if (flashlight != null) { flashlight.enabled = false; }
+        if (weapon != null) { weapon.enabled = false; }
         stateManager.SetState(AIStateManager.State.Dead);
         anim.SetBool("Dead", true);
         yield return new WaitForSeconds(10f);

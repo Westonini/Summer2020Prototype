@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2031710161985051899}
   - component: {fileID: 2031710161985051897}
   - component: {fileID: 2031710161985051898}
+  - component: {fileID: 7073845604708570710}
   m_Layer: 9
   m_Name: HitboxCollider
   m_TagString: Untagged
@@ -66,6 +67,27 @@ MonoBehaviour:
   inactiveEntities: {fileID: 0}
   hurtSounds:
   - ZombieHurt1
+--- !u!50 &7073845604708570710
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031710161985051900}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &2031710162106495897
 GameObject:
   m_ObjectHideFlags: 0
@@ -184,6 +206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384eb9e5115a8624fb9aa4b074a82ffd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  detectorScript: {fileID: 2031710162804912387}
 --- !u!114 &2031710162172530839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -203,6 +226,7 @@ MonoBehaviour:
     m_Bits: 2048
   stateManager: {fileID: 2031710162780615000}
   aiPath: {fileID: 2031710162780614980}
+  detectorScript: {fileID: 2031710162804912387}
 --- !u!1 &2031710162780614982
 GameObject:
   m_ObjectHideFlags: 0
@@ -320,7 +344,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50aa1fb0c9f07cb4cae42f7878db0e12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementType: 3
+  movementType: 0
+  attackType: 0
 --- !u!114 &2031710162780615001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -352,6 +377,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   target: {fileID: 0}
+  roamWhenIdle: 1
 --- !u!114 &2031710162780614975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -377,7 +403,7 @@ GameObject:
   - component: {fileID: 2031710162804912384}
   - component: {fileID: 2031710162804912639}
   - component: {fileID: 2031710162804912387}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: EnemyDetector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -544,5 +570,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ae65438653f41349a55b9f602023370, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characters: {fileID: 0}
   aiPath: {fileID: 2031710162780614980}
+  characters: {fileID: 0}

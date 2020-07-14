@@ -19,6 +19,9 @@ public class AIController : MonoBehaviour
     private AIDestinationSetter aiDestSetter;
     private Patrol aiPatrol;
 
+    private float baseSlowdownDist;
+    private float baseEndReachDist;
+
     [HideInInspector] public bool isDead;
 
     [Space]
@@ -37,6 +40,9 @@ public class AIController : MonoBehaviour
 
     private void Start()
     {
+        baseSlowdownDist = aiPath.slowdownDistance;
+        baseEndReachDist = aiPath.endReachedDistance;
+
         stateManager.SetState(AIStateManager.State.Idle);
         Idle();
     }
@@ -51,10 +57,10 @@ public class AIController : MonoBehaviour
             aiPatrol.enabled = false;
             aiDestSetter.target = null;
             aiDestSetter.enabled = false;
-
         }
         else if (stateManager.GetMovementType() == AIStateManager.MovementType.Follower)
         {
+            aiPath.endReachedDistance = baseEndReachDist; aiPath.slowdownDistance = baseSlowdownDist;
             aiPath.canMove = true;
             aiPatrol.enabled = false;
             aiDestSetter.target = followTrans;
@@ -86,7 +92,11 @@ public class AIController : MonoBehaviour
         }
         else if (stateManager.GetMovementType() == AIStateManager.MovementType.Follower)
         {
-            //Continue following 
+            if (stateManager.GetAttackType() == AIStateManager.AttackType.Melee)
+            {
+                aiDestSetter.target = detectorScript.GetTarget();
+                aiPath.endReachedDistance = 0.3f; aiPath.slowdownDistance = 0.35f;
+            }
         }
     }
 

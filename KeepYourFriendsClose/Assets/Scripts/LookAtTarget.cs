@@ -4,12 +4,7 @@ using UnityEngine;
 
 public class LookAtTarget : MonoBehaviour
 {
-    private AITargetDetector detectorScript;
-
-    void Awake()
-    {
-        detectorScript = gameObject.transform.parent.GetComponentInChildren<AITargetDetector>();
-    }
+    public AITargetDetector detectorScript;
 
     void Update()
     {

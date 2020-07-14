@@ -19,6 +19,14 @@ public class PlayerHealth : CharacterHealth
         SS = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<ScreenShake>();
     }
 
+    protected override void Start()
+    {
+        base.Start();
+
+        healthBar.maxValue = GetHealth();
+        UpdateHealthBar();
+    }
+
     private void UpdateHealthBar()
     {
         healthBar.value = GetHealth();
