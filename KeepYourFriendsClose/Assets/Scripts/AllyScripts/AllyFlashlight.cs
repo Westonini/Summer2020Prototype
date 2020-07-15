@@ -37,7 +37,9 @@ public class AllyFlashlight : MonoBehaviour
 
     void Update()
     {
-        if (aiPath.desiredVelocity.x != 0 && aiPath.desiredVelocity.y != 0)
+        if (detector.IsTargetFound())
+            transform.up = (detector.GetTarget().transform.position - transform.position).normalized;
+        else if (aiPath.desiredVelocity.x != 0 && aiPath.desiredVelocity.y != 0)
             transform.up = (aiPath.destination - transform.position);
     }
 

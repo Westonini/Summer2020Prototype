@@ -16,7 +16,6 @@ namespace Pathfinding {
 	public class AIDestinationSetter : VersionedMonoBehaviour {
 		/// <summary>The object that the AI should move to</summary>
 		public Transform target;
-        public bool roamWhenIdle;
 		IAstarAI ai;
 
 		void OnEnable () {

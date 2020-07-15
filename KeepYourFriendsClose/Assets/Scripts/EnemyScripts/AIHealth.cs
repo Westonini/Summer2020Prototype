@@ -7,7 +7,7 @@ public class AIHealth : CharacterHealth
 {
     private AIStateManager stateManager;
     public Transform inactiveEntities;
-    public string[] hurtSounds;
+    public AudioSource[] hurtSounds;
 
     [Space]
     public Light2D flashlight;
@@ -22,7 +22,8 @@ public class AIHealth : CharacterHealth
     public override void TakeDamage(int amount)
     {
         base.TakeDamage(amount);
-        AudioManager.instance.PlayOneShot(hurtSounds);
+        int random = UnityEngine.Random.Range(0, hurtSounds.Length);
+        hurtSounds[random].PlayOneShot(hurtSounds[random].clip);
     }
 
     protected override void CharacterDeath()
