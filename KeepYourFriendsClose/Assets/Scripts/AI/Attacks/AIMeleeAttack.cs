@@ -7,7 +7,6 @@ public class AIMeleeAttack : AIAttack
 {
     [Space]
     public AIPath aiPath;
-    public AITargetDetector detectorScript;
     private float baseSpeed;
     private CharacterHealth characterHealth;
     private bool withinRange;
@@ -62,7 +61,7 @@ public class AIMeleeAttack : AIAttack
         onCooldown = false;
         aiPath.maxSpeed = baseSpeed;
 
-        if (withinRange && stateManager.GetState() != AIStateManager.State.Dead && characterHealth.GetHealth() != 0)
+        if (withinRange && stateManager.GetState() == AIStateManager.State.Aggro && characterHealth.GetHealth() != 0)
             StartCoroutine(AttackCooldown());
     }
 }

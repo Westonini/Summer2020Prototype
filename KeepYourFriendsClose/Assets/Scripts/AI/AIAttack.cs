@@ -9,6 +9,7 @@ public abstract class AIAttack : MonoBehaviour
 
     public LayerMask targetLayer;
     public AIStateManager stateManager;
+    public AITargetDetector detectorScript;
     protected bool onCooldown;
 
     //To be scripted in child classes
