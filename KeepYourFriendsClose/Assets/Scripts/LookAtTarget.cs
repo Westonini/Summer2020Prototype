@@ -9,6 +9,6 @@ public class LookAtTarget : MonoBehaviour
     void Update()
     {
         if (detectorScript.IsTargetFound())
-            transform.up = (detectorScript.GetTarget().transform.position - transform.position).normalized;
+            transform.up = (detectorScript.GetTarget().position - transform.position).normalized;
     }
 }

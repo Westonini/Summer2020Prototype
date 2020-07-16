@@ -8,7 +8,7 @@ public class Inventory : MonoBehaviour
     public Item item2;
     public Item item3;
 
-    private int  itemEquippedSlot;
+    private int itemEquippedSlot;
     private Item itemEquipped;
 
     private void Start()

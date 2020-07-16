@@ -16,7 +16,6 @@ public class LookAtMouse : MonoBehaviour
     void Update()
     {
         mouseScreenPosition = mainCam.ScreenToWorldPoint(Input.mousePosition);
-        direction = (mouseScreenPosition - (Vector2)transform.position).normalized;
-        transform.up = direction;
+        transform.up = (mouseScreenPosition - (Vector2)transform.position).normalized;
     }
 }

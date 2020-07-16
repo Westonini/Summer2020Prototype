@@ -13,6 +13,7 @@ public class GunItem : Item
     private Animator anim;
     private GunItemUI GIU;
     private ScreenShake SS;
+    private Camera mainCam;
 
     public Transform playerTrans;
 
@@ -22,6 +23,7 @@ public class GunItem : Item
         anim = GetComponent<Animator>();
         GIU = gameObject.GetComponent<GunItemUI>();
         SS = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<ScreenShake>();
+        mainCam = Camera.main;
     }
 
     protected virtual void Start()
@@ -75,6 +77,9 @@ public class GunItem : Item
                 //Create a projectile
                 Rigidbody2D projectileInstance;
                 projectileInstance = Instantiate(projectilePrefab, shootPoint.position, projectilePrefab.transform.rotation) as Rigidbody2D;
+
+                //Rotate the projectile
+                projectileInstance.transform.up = ((Vector2)(mainCam.ScreenToWorldPoint(Input.mousePosition)) - (Vector2)transform.position).normalized;
 
                 //Set the shooter variable in Projectile to the object that shot the projectile
                 Projectile proj = projectileInstance.gameObject.GetComponent<Projectile>();

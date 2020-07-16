@@ -23,7 +23,6 @@ public class AIRangedAttack : AIAttack
     public AudioSource reloadAudioSource;
     private int bulletCount;
     private bool clipEmpty;
-    private Coroutine reloadCoroutine = null;
 
     private void Start()
     {
@@ -44,6 +43,9 @@ public class AIRangedAttack : AIAttack
             Rigidbody2D projectileInstance;
             projectileInstance = Instantiate(projectilePrefab, shootPoint.position, projectilePrefab.transform.rotation) as Rigidbody2D;
 
+            //Rotate the projectile
+            projectileInstance.transform.up = (detectorScript.GetTarget().position - transform.position).normalized;
+
             //Set the shooter variable in Projectile to the object that shot the projectile
             Projectile proj = projectileInstance.gameObject.GetComponent<Projectile>();
             proj.SetShooter(characterTrans);
@@ -63,7 +65,7 @@ public class AIRangedAttack : AIAttack
             //Play shoot sound
             shootAudioSource.PlayOneShot(shootAudioSource.clip);
 
-            //Gun Shoot Animation
+            //Shoot Animation
             anim.SetTrigger("Shoot");
 
             //Subtract a bullet from the bullet count if the weapon is reloadable
